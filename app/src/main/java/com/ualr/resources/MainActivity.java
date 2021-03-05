@@ -5,6 +5,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 import com.google.android.material.snackbar.Snackbar;
 
@@ -18,6 +19,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        String country_description = getString(R.string.country_description);
+
+        TextView msgTextView = (TextView) findViewById(R.id.country_description_text);
+        msgTextView.setText(country_description);
+        //msgTextView.setText(this.getResources().getText(R.string.country_description));
     }
 
+
+    public void onLessonLearntClicked(View view) {
+       Snackbar.make(findViewById(R.id.root_layout),this.getResources().getText(R.string.congrats_text),Snackbar.LENGTH_SHORT )
+        .show();
+    }
 }

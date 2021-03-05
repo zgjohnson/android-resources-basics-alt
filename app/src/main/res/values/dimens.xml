@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="country_image_width">128dp</dimen>
+    <dimen name="padding">24dp</dimen>
+    <dimen name="country_image_height">0dp</dimen>
+    <dimen name="country_image_marginBottom">12dp</dimen>
+    <dimen name="text_marginBottom">24dp</dimen>
+    <dimen name="title_textSize">20sp</dimen>
+    <dimen name="longText_textSize">16sp</dimen>
+    <dimen name="longText_lineHeight">24dp</dimen>
+    <dimen name="button_paddingStart">24dp</dimen>
+    <dimen name="button_paddingEnd">24dp</dimen>
+    <dimen name="country_picture_width">0dp</dimen>
+    <dimen name="marginTop">8dp</dimen>
+    <dimen name="longText_width">0dp</dimen>
+    <dimen name="longText_marginStart">24dp</dimen>
+    <dimen name="imageView_width">190dp</dimen>
+    <dimen name="imageView_height">175dp</dimen>
+    <dimen name="imageView_margin">16dp</dimen>
+</resources>
